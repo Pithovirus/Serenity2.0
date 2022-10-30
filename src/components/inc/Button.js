@@ -1,6 +1,5 @@
 import React from "react";
 import LoremIpsum from 'react-lorem-ipsum';
-import Form from "../inc/Form.js";
 function Button (){
     const mystyle = {
         color: "black",
@@ -21,7 +20,6 @@ function Button (){
             </div>
             <div class="modal-body">
             {/*<p>{LoremIpsum()}</p>*/}
-            <Form/>
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

@@ -32,11 +32,11 @@ function Navbar() {
               
 
             </ul>
-
-            <ul class="nav navbar-nav mb-2 mb-lg-0 ms-5 me-lg-5 gap-lg-4 h6">
+ 
+            {/**<ul class="nav navbar-nav mb-2 mb-lg-0 ms-5 me-lg-5 gap-lg-4 h6">
             <Link to="/signup" class="nav-link active text-white"><i class="bi-person-plus-fill"></i> Sign Up</Link>
             <Link to="/login" class="nav-link active text-white"><i class="bi-person-check-fill"></i> Login</Link>
-            </ul>
+    </ul>**/}
           </div>
         </div>
       </nav>

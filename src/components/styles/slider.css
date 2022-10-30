@@ -23,7 +23,7 @@
     
 }
 
-.bi-facebook, .bi-twitter, .bi-instagram {
+ /*.bi-twitter, .bi-instagram {
     text-align: center;
     padding: 3px 0;
     font-size: 1.8rem;
@@ -31,3 +31,8 @@
     line-height: 1.428571429;
     border-radius: 15px;
   }
+*/
+.bi-facebook, .bi-envelope{
+    font-size: 1.3rem;
+    text-align: center;
+}
