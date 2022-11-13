@@ -1,6 +1,8 @@
 import React from "react";
-import LoremIpsum from "react-lorem-ipsum";
-import help from '../images/help1.jpg'
+import carbonilla from '../images/CARBONILLA.jpg';
+import caguan from '../images/CAGUAN.jpg';
+import reyes from '../images/REYES.jpg';
+import solano from '../images/SOLANO.jpg';
 
 
 function Aboutus() {
@@ -14,13 +16,13 @@ function Aboutus() {
             About Us
         </h1>
         <p>
-        {LoremIpsum()}
+        Sereniteam started the project for those who are afraid to seek professional help regarding mental health. We have created a chatbot to help accomodate people with mental health conditions that aims to pave a way for them to get help they need from mental health professionals. Along the way, we encountered some minor setbacks in making this project possible and able but even so,we're counting to improve this project <br/>because we want people to know that help is always available.
         </p>
         </div>
             <div className="col-md-3 col-sm-6">
                 <div className="card text-center">
                     <div className="card-block">
-                        <img src={help} alt="" className="img-fluid"/>
+                        <img src={carbonilla} alt="" className="img-fluid"/>
                         <div className="card-title">
                            <h4>
                             Front-End
@@ -40,7 +42,7 @@ function Aboutus() {
             <div className="col-md-3 col-sm-6">
                 <div className="card text-center">
                     <div className="card-block">
-                        <img src={help} alt="" className="img-fluid"/>
+                        <img src={caguan} alt="" className="img-fluid"/>
                         <div className="card-title">
                            <h4>
                             Back-End
@@ -60,7 +62,7 @@ function Aboutus() {
             <div className="col-md-3 col-sm-6">
                 <div className="card text-center">
                     <div className="card-block">
-                        <img src={help} alt="" className="img-fluid"/>
+                        <img style={{height:'260px', width:'260px'}}src={reyes} alt="" className="img-fluid"/>
                         <div className="card-title">
                            <h4>
                             Data/Document
@@ -80,7 +82,7 @@ function Aboutus() {
             <div className="col-md-3 col-sm-6">
                 <div className="card text-center">
                     <div className="card-block">
-                        <img src={help} alt="" className="img-fluid"/>
+                        <img src={solano} alt="" className="img-fluid"/>
                         <div className="card-title">
                            <h4>
                             Document
