@@ -26,11 +26,11 @@ function Aboutus() {
                 <div className="card text-center">
                     <div className="card-block">
                         <img src={carbonilla} alt="" className="img-fluid"/>
-                        <div className="card-title">
-                        <h5 className="fw-bold">
-                           FRONTEND DEVELOPER
+                        <div style={{marginTop:'20px'}} className="card-title">
+                        <h5 className="fw-normal">
+                        Gene Caleb Carbonilla
                             </h5>
-                            <h6 className="fw-semibold">Gene Caleb Carbonilla</h6>
+                            <p className="fw-light">Frontend Developer</p>
                         </div>
 
                     </div>
@@ -43,11 +43,11 @@ function Aboutus() {
                 <div className="card text-center">
                     <div className="card-block">
                         <img src={caguan} alt="" className="img-fluid"/>
-                        <div className="card-title">
-                           <h5 className="fw-bold">
-                           BACKEND DEVELOPER
+                        <div style={{marginTop:'20px'}} className="card-title">
+                        <h5 className="fw-normal">
+                        Xyphrus Von Keith Caguan
                             </h5>
-                            <h6 className="fw-semibold">Xyphrus Von Keith Caguan</h6>
+                            <p className="fw-light">Backend Developer</p>
                         </div>
 
                     </div>
@@ -60,11 +60,11 @@ function Aboutus() {
                 <div className="card text-center">
                     <div className="card-block">
                         <img style={{height:'260px', width:'260px'}}src={reyes} alt="" className="img-fluid"/>
-                        <div className="card-title">
-                        <h5 className="fw-bold">
-                           DATA SPECIALIST
+                        <div style={{marginTop:'20px'}} className="card-title">
+                        <h5 className="fw-normal">
+                       Joshreen Reyes
                             </h5>
-                            <h6 className="fw-semibold">Joshreen Reyes</h6>
+                            <p className="fw-light">Data Specialist</p>
                         </div>
 
                     </div>
@@ -78,10 +78,10 @@ function Aboutus() {
                     <div className="card-block">
                         <img src={solano} alt="" className="img-fluid"/>
                         <div className="card-title">
-                        <h5 className="fw-bold">
-                           DATA ANALYST
+                        <h5 style={{marginTop:'20px'}} className="fw-normal">
+                       Jirah Kate Solano
                             </h5>
-                            <h6 className="fw-semibold">Jirah Kate Solano</h6>
+                            <p className="fw-light">Data Analyst</p>
                         </div>
 
                     </div>
